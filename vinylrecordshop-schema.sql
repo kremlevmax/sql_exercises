@@ -70,3 +70,5 @@ CREATE TABLE bandArtist (
         FOREIGN KEY (artistId)
 		REFERENCES artist (artistId)
 );
+
+-- /usr/local/mysql/bin/mysqldump -p --user=root vinylrecordshop artist > /Users/service/Documents/SQL/artist.sql
